@@ -15,7 +15,6 @@ class HobbitTest < Minitest::Test
   end
 
   def test_disposition_is_unadventurous
-    skip
     hobbit = Hobbit.new("Samwise")
     assert_equal "homebody", hobbit.disposition
   end
