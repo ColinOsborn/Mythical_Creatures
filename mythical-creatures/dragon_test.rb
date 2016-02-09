@@ -43,10 +43,10 @@ class DragonTest < Minitest::Test
     dragon = Dragon.new("Canth", :brown, "F'nor")
     assert dragon.hungry?
     dragon.eat
-    assert dragon.hungry? 
+    assert dragon.hungry?
     dragon.eat
     assert dragon.hungry?
     dragon.eat
     refute dragon.hungry?
-  end
+  end 
 end

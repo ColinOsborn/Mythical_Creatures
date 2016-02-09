@@ -10,7 +10,6 @@ class HobbitTest < Minitest::Test
   end
 
   def test_it_is_named_something_else
-    skip
     hobbit = Hobbit.new("Peregrin")
     assert_equal "Peregrin", hobbit.name
   end
@@ -81,4 +80,3 @@ class HobbitTest < Minitest::Test
   end
 
 end
-
